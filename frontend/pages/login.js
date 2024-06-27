@@ -53,7 +53,7 @@ export default function LoginPage() {
             <div className='login-page-container'>
                 <Image
                     priority
-                    src="/images/logosinbackground.png"
+                    src="/images/compuBackground.png"
                     height={150}
                     width={150}
                     alt=""
