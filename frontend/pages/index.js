@@ -5,7 +5,7 @@ import { useAuth } from "../contexts/AuthContext";
 import Router from "next/router";
 import DomainsTable from "@/components/DomainsTable";
 
-const API_URL = process.env.apiKey;
+const API_URL = 'http://127.0.0.1:8000';
 
 export default function Home({ blogs }) {
   const { isAuthenticated, setToken } = useAuth();

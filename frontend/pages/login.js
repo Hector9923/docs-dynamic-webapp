@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import Image from 'next/image';
 
-const API_URL = process.env.apiKey;
+const API_URL = 'http://127.0.0.1:8000';
 
 export default function LoginPage() {
     const router = useRouter();
@@ -58,7 +58,7 @@ export default function LoginPage() {
                     width={150}
                     alt=""
                 />
-                <h1>WHISTLE CODING DOCUMENTATION</h1>
+                <h1>PRIVATE DOCUMENTATION WEB APPLICATION</h1>
 
                 <h1>Login</h1>
                 {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
